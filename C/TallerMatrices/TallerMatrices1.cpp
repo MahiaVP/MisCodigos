@@ -16,10 +16,19 @@ int main(){
 			for(i=0;i<c;i++){
 				printf("\nDigite el elemento: ");
 				scanf("%d",&g);
+				m[n][i]=g;
+				
 				if(g%2==0){
 					par=par+1;
 				}
 			}
+		}
+		
+		for(n=0;n<f;n++){
+			for(i=0;i<c;i++){
+				printf("%d ",m[n][i]);
+			}
+			printf("\n");
 		}
 		
 		printf("\nEn total hay %d numeros pares\n\n",par);
