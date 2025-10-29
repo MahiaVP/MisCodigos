@@ -3,6 +3,7 @@
 int main(){
 	int k,a=1,suma=0;
 	do{
+  suma=0;
 		for(a=1;a<=10;a++){
 			suma=suma+a;
 		}
