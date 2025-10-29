@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-	int k,n,c,i,num;
+	int k,n,c,i;
 	float prom;
 	do{
 		printf("La matriz sera tipo n x n; digite el valor de n: ");
@@ -12,8 +12,7 @@ int main(){
 		for(c=0;c<n;c++){
 			for(i=0;i<n;i++){
 				printf("\nDigite el elemento: ");
-				scanf("%d",&num);
-				m[c][i]=num;
+				scanf("%d",&m[c][i]);
 				
 			}
 		}
@@ -35,7 +34,9 @@ int main(){
 			sum=sum+max[c];
 		}
 		
+		printf("\n");
 		for(c=0;c<n;c++){
+		
 			for(i=0;i<n;i++){
 				printf("%d ",m[c][i]);
 			}
@@ -44,11 +45,13 @@ int main(){
 		
 		prom=(float) sum/n;
 		
-		printf("Maximos:\n");
+		printf("\n");
+		
+		printf("Maximos:\n\n");
 		for(c=0;c<n;c++){
 			printf("%d\n",max[c]);
 		}
-		printf("El promedio de los maximos es: %.2f",prom);
+		printf("\nEl promedio de los maximos es: %.2f",prom);
 		
 		printf("\n\nDesea volver a ejecutar el programa?\n1)Si\n0)No\n");
 		scanf("%d",&k);
