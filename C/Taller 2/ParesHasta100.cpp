@@ -3,6 +3,7 @@
 int main(){
 	int k,a,par,sum=0;
 	do{
+		sum=0;
 		printf("Suma de los numeros pares hasta el 100\n");
 		
 		for (a=1;a<=100;a++){
@@ -16,3 +17,4 @@ int main(){
 		scanf("%d",&k);
 	}while(k==1);
 }
+
