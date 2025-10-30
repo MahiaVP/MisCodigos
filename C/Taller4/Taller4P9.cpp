@@ -130,8 +130,11 @@ int main(){
 				}
 				printf("La suma de los numeros negativos es de: %d\n",sum);
 				break;
+			default:
+				printf("Opcion no valida\n");
 		}
 		printf("Desea volver a ejecutar el programa?\n1)Si\n0)No\n");
 		scanf("%d",&k);
 	}while(k==1);
 }
+
