@@ -43,13 +43,7 @@ int main(){
 			}
 			printf("= %.2f\n",sumf[i]);
 		}
-		
-		for(i=0;i<f;i++){
-			for(n=0;n<c;n++){
-				sumf[i]=sumf[i]+m[i][n];
-			}
-		}
-		
+		
 		printf("\n");
 		
 		for(i=0;i<c;i++){
