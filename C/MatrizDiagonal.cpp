@@ -15,7 +15,7 @@ int main(){
 	                scanf("%d",&M1[i][c]);
 	                }
 	        }
-	        printf("\n");
+	        printf("\n°Matriz 1:°\n\n");
 	            
 	        for(i=0;i<n;i++){
 	            for(c=0;c<n;c++){
@@ -23,7 +23,7 @@ int main(){
 	                }
 	            printf("\n");
 	        }
-	        printf("\n");
+	        printf("\n°Matriz 2 diagonal en 0:°\n\n");
 	            
 	        for(i=0;i<n;i++){
 	            for(c=0;c<n;c++){
@@ -41,7 +41,7 @@ int main(){
 	            }
 	            printf("\n");
 	    	}
-	        printf("\n");
+	        printf("\n°Matriz 3 resultado final:°\n\n");
 	            
 	        for(i=0;i<n;i++){
 	            for(c=0;c<n;c++){
@@ -58,7 +58,8 @@ int main(){
 	                printf("%d ",M3[i][c]);
 	            }
 	            printf("\n");
-	        }     
+	        }  
+			printf("\n");   
 	    } else {
 	        printf("N no esta dentro de los limites.\n");
 	    }
